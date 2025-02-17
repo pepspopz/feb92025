@@ -9,13 +9,15 @@
 height:600px;
 width:1000px;
 margin:0 auto;
-background-color: bisque;
+background-color:bisque;
+color:darkolivegreen;
 }
 
 header{
 	height:100px;
 	width:100%;
 	background-color:rgba(219,218,252,1.00);
+	color:cornflowerblue;
 }
 
 
@@ -44,6 +46,7 @@ section{
 
 article{
 	float:left;
+	color:darkolivegreen;
 }
 
 article p{
@@ -54,6 +57,5 @@ footer{
 	clear: both;
 	height:75px;
 	background-color:lightsteelblue;
-	
-	
+	color:darkolivegreen;
 }

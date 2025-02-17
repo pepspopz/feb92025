@@ -3,18 +3,49 @@
 <head>
 <meta charset="utf-8">
 <title>ice cream</title>
+
 	<link href="main.css" type="text/css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style> 
+.raleway-<uniquifier>{
+  font-family: "Raleway", "Times New Roman", serif; 
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+	p{font-size: 14px;}
+	a:hover{color: darkgreen;
+	}
+	article a:hover{ 
+		font-size: normal;
+	}
+	a:visited{color:greenyellow;}
+</style>
+	
 </head>
 
+	
 <body>
+	
 <div id="container">
-	<header>yum ice cream</header>
+	<header><h1 class=".raleway-<uniquifier>">yum ice cream</h1></header>
 		<nav><p>cone</p></nav>
-	<section class="mainleft">yummmmmm</section>
+	<section class="mainleft"><img src="images/ice.png" alt="ice ice" usemap="#icemap">
+	
+	<map name="icemap">	
+<area shape="rect" coords="6,12,105,156" alt="ice" href="https://icecream.html">
+		<p>it is clickable the image above</p>
+		
+</map></section>
+	
+	
 	<section class="mainright">
 		<article>
-		<img src="images/vanilla.png" width="160px"/></article>
-		<article><p>vanilla ice cream</p></article>
+		<img src="images/vanilla.png" width="120px"/></article>
+		<article><p><a href="https://www.google.com">vanilla ice cream</a></p></article>
 	</section>
 		
 	
